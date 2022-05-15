@@ -29,6 +29,10 @@ ___
 
     pip3 install -r requirements.txt
     
+Редактируем конфиг:
+
+    nano config.py
+    
 Запускаем бота:
 
     python3 main.py
