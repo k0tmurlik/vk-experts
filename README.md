@@ -10,16 +10,10 @@ ___
 ___
 <i>Инструкция по запуску на Ubuntu.</i>
 ___
-Копируем репозиторий:
+Установка бота:
     
     git clone https://github.com/k0tmurlik/vk-experts.git
-
-Переходим в репозиторий:
-
     cd vk-experts
-    
-Устанавливаем необходимые библиотеки:
-
     pip3 install -r requirements.txt
     
 Редактируем конфиг:
