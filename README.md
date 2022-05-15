@@ -13,10 +13,15 @@ ___
     access_token: токен от страницы
     sleep_time: время для остановки, между оцениванием записи
     alt_categories: будет ли работать бот в альтернативных от IT категориях
+    
+___
+Копируем репозиторий:
+    git clone https://github.com/k0tmurlik/vk-experts.git
+___
+Установка необходимых библиотек:
+
+    pip3 install -r requirements.txt
 ___
 Запуск бота:
 
-    git clone https://github.com/k0tmurlik/vk-experts.git
-    pip3 install -r requirements.txt
     python3 main.py
-    
